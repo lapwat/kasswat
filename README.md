@@ -9,3 +9,4 @@ Chrome extension to get ride of Facebook ads &amp; sponsored contents
 - Check *Developer mode*  
 - Click *Load unpacked extension* and select the `kasswat` folder
 - You should see a nice middle finger in the toolbar
+- Load Facebook & enjoy ad-free experience
