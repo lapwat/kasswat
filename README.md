@@ -1,4 +1,4 @@
-# kasswat
+# <img src="icon.png" width="40"> kasswat
 Chrome extension to get ride of Facebook ads &amp; sponsored contents
 
 ![Screenshot](screenshot.png)
