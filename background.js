@@ -8,7 +8,7 @@ function formatDate(date) {
 $('#pagelet_ego_pane').remove();
 
 (function(){
-    var francais = $("div[data-fte='1']:contains('Sponsorisé')")
+    var francais = $("div[data-fte='1']:contains('Sponsorisé'), div[data-fte='1']:contains('Commandité')")
     var anglais = $("div[data-fte='1']:contains('Sponsored')")
     var n = francais.length + anglais.length
     francais.remove()
