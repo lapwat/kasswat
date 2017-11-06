@@ -5,7 +5,7 @@ function formatDate(date) {
   return hour + ':' + min + ':' + sec
 }
 
-$('#pagelet_ego_pane').remove();
+$(".ego_column:contains('Sponsorisé'), .ego_column:contains('Sponsored'), .ego_column:contains('Pages suggérées'), .ego_column:contains('Suggested')").remove();
 
 (function(){
     var francais = $("div[data-fte='1']:contains('Sponsorisé'), div[data-fte='1']:contains('Commandité')")
@@ -14,5 +14,5 @@ $('#pagelet_ego_pane').remove();
     francais.remove()
     anglais.remove()
     console.log(formatDate(new Date()) + ' => ' + n + ' éléments supprimés')
-    setTimeout(arguments.callee, 10000)
+    setTimeout(arguments.callee, 5000)
 })()
