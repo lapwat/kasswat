@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "kasswat",
-    "description": "Get ride of Facebook ads & sponsored content",
-    "version": "0.1.2",
+    "description": "Get rid of Facebook / Google ads & sponsored content",
+    "version": "0.1.3.1",
     "icons": {
         "512": "icon.png"
     },
@@ -24,6 +24,6 @@
 
     "content_scripts": [{
         "js": [ "jquery.min.js", "background.js"],
-        "matches": [ "http://www.facebook.com/*", "https://www.facebook.com/*"]
+        "matches": [ "http://www.facebook.com/*", "https://www.facebook.com/*", "http://www.google.com/*", "https://www.google.com/*", "http://www.google.fr/*", "https://www.google.fr/*"]
     }]
 }
