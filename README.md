@@ -1,7 +1,7 @@
 # <img src="icon.png" width="40"> kasswat
 Chrome extension to get ride of Facebook / Google ads &amp; sponsored contents.
 
-The extension is now available on the [Chrome Web store](https://chrome.google.com/webstore/detail/kasswat/bbijnaeijlapcigmcnehlbnaekcopdep) and supports Google ads in top results.
+The extension is now available on the [Chrome Web store](https://chrome.google.com/webstore/detail/kasswat/bbijnaeijlapcigmcnehlbnaekcopdep) and now removes top ads in Google results.
 
 ![Screenshot](screenshot.png)
 
