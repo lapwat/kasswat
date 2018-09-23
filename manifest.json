@@ -3,7 +3,7 @@
 
     "name": "kasswat",
     "description": "Get rid of Facebook / Google / Amazon ads & sponsored content",
-    "version": "0.1.4",
+    "version": "0.1.4.1",
     "icons": {
         "512": "icon.png"
     },
