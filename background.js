@@ -21,7 +21,7 @@ $(".s-result-item:contains('Amazon\\'s')").remove()
 // google
 $("#tads").remove()
 $("#tvcaps").remove()
-$("#rhs").remove()
+$(".cu-container").remove()
 
 (function(){
     var facebook_fr = $("div[data-fte='1']:contains('SpSonsSoriSséS')")
