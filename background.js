@@ -23,11 +23,7 @@ $("#tads").remove()
 $("#tvcaps").remove()
 $(".cu-container").remove()
 
-(function(){
-    var facebook_fr = $("div[data-fte='1']:contains('SpSonsSoriSséS')")
-    var facebook_en = $("div[data-fte='1']:contains('SpSonSsoSredS')")
-
-    facebook_fr.remove()
-    facebook_en.remove()
-    setTimeout(arguments.callee, 5000)
-})()
+window.setInterval(function(){
+  // scrolling facebook
+  $("[data-fte='1']:has(.o_wceh2kd-6)").remove()
+}, 1000);
