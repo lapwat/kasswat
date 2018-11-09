@@ -3,7 +3,7 @@
 
     "name": "kasswat",
     "description": "Get rid of Facebook / Google / Amazon ads & sponsored content",
-    "version": "0.1.4.2",
+    "version": "0.1.4.3",
     "icons": {
         "512": "icon.png"
     },
@@ -24,6 +24,6 @@
 
     "content_scripts": [{
         "js": [ "jquery.min.js", "background.js"],
-        "matches": [ "http://www.facebook.com/*", "https://www.facebook.com/*", "http://www.google.com/*", "https://www.google.com/*", "http://www.google.fr/*", "https://www.google.fr/*", "http://www.amazon.com/*", "https://www.amazon.com/*", "http://www.amazon.fr/*", "https://www.amazon.fr/*"]
+        "matches": [ "*://*.facebook.com/*", "*://*.google.com/*", "*://*.google.fr/*", "*://*.amazon.com/*", "*://*.amazon.fr/*", "*://*.9gag.com/*"]
     }]
 }

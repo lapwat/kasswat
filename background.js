@@ -23,6 +23,10 @@ $("#tads").remove()
 $("#tvcaps").remove()
 $(".cu-container").remove()
 
+// 9gag
+$(".topBannerAd-container").remove()
+$("#sidebar").remove()
+
 window.setInterval(function(){
   // scrolling facebook
   $("[data-fte='1']:has(.o_wceh2kd-6)").remove()
